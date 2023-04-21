@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/* index.jsp page styles start here **/
+.table{
+	background-color: #fafafa;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 2px #ddd;
+	width: 100%;
+	border-spacing:0; /* Removes the cell spacing via CSS */
+}
+
+.table tr th{
+	background-color: #edb6b6;
+	margin: 0px !important;
+	padding: 10px;
+}
+
+.table tr td{
+	padding: 10px;
+    text-align: center;
+}
+
+.odd{
+	background-color: #fe3d3d1f;
+}
+
+.btn{
+	
+	border-radius: 6px;
+	box-shadow: 1px 1px 1px 1px #ddd;	
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #1c71d8;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+
+.btn-del{
+	background: #c01c28 !important;
+}
+
+.btn-home{
+	background: #fe3d3d !important;
+}
+
+.btn-inactive{
+	background: #999 !important;
+}
+
+.btn-edit{
+	background: #c64600 !important;
+}
+.btn-search{
+	width: 12%;
+	height: 32px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.section{
+	width: 70%;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.thumbnail{
+	border: solid 1px #ccc;
+	box-shadow: 1px 1px 1px 1px #ddd;
+	padding: 5px;
+}
+.pull-right{
+	float: right;
+}
+
+h2{
+	background-color: #fe3d3d;
+margin: 0px;
+  margin-bottom: 0px;
+padding: 20px;
+text-align: center;
+margin-bottom: 40px;
+color: #fff;
+}
+
+.search-input{
+	width: 85%;
+border: solid 2px #1c71d8;
+border-radius: 5px;
+height: 25px;
+}
+
+#pagination{
+	margin-top: 50px;
+}

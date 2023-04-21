@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>ProductWebApp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>product-list.jsp</welcome-file>
+  </welcome-file-list>
+    
+  <servlet>
+  	<servlet-name>ProductServlet</servlet-name>
+  	<servlet-class>com.productwebapp.ProductWebApp</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ProductServlet</servlet-name>
+  	<url-pattern>/submitProduct</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>NewProductServlet</servlet-name>
+  	<servlet-class>com.productwebapp.ProductWebApp</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>NewProductServlet</servlet-name>
+  	<url-pattern>/new</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DeleteProductServlet</servlet-name>
+  	<servlet-class>com.productwebapp.ProductWebApp</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DeleteProductServlet</servlet-name>
+  	<url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DeleteImageProductServlet</servlet-name>
+  	<servlet-class>com.productwebapp.ProductWebApp</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DeleteImageProductServlet</servlet-name>
+  	<url-pattern>/delete-image</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>EditProductServlet</servlet-name>
+  	<servlet-class>com.productwebapp.ProductWebApp</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>EditProductServlet</servlet-name>
+  	<url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>UpdateProductServlet</servlet-name>
+  	<servlet-class>com.productwebapp.ProductWebApp</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>UpdateProductServlet</servlet-name>
+  	<url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>CreateProductServlet</servlet-name>
+  	<servlet-class>com.productwebapp.ProductWebApp</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>CreateProductServlet</servlet-name>
+  	<url-pattern>/create</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>AllProductServlet</servlet-name>
+  	<servlet-class>com.productwebapp.ProductWebApp</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>AllProductServlet</servlet-name>
+  	<url-pattern>/view-all</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ProductDetailServlet</servlet-name>
+  	<servlet-class>com.productwebapp.ProductWebApp</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ProductDetailServlet</servlet-name>
+  	<url-pattern>/view</url-pattern>
+  </servlet-mapping>
+</web-app>
